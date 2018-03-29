@@ -3,12 +3,11 @@
 
 # use git add to put files in staging area
 * you can filter by file type thusly: git add *.html
-* or add them all including hidden: git add 
+* or add them all including hidden: git add -A
 * to create hidden: touch .hidden.ext
-* to see hidden: ls -a
+* to see hidden: ls -a (also a C9 setting)
 
-
-# use "git rm --cached <file>..." to unstage or remove files from staging
+# use "git reset HEAD filename..." to unstage or remove files from staging
 
 # then we commit them to the repo
 * git commit -m "present tense verb and object"
@@ -20,4 +19,8 @@
 
 # git log is the history of what you've done
 
+# git ignore
+* create hidden file .gitignore
+* then add filenames to it. rustic.
+* 
 
