@@ -1,1 +1,1 @@
-// dogs rule
+// dogs rule especially german shepherds
